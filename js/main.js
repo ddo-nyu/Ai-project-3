@@ -84,6 +84,9 @@ function draw() {
     background(backgroundColor);
     leftWristParticle.render();
     rightWristParticle.render();
+
+    // draw video in the top left corner
+    image(video, 0, 0, 200, 150);
 }
 
 function transitionColors() {
